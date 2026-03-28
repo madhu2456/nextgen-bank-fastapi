@@ -11,8 +11,9 @@ alembic = "*"
 asyncpg = "*"
 argon2-cffi = "*"
 psycopg = {extras = ["pool", "binary"], version = "*"}
-pydantic-settings = "*"
 greenlet = "*"
+pydantic-settings = "*"
+loguru = "*"
 
 [dev-packages]
 
