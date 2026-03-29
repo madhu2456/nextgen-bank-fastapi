@@ -134,5 +134,14 @@ volumes:
 
 # docker compose -f local.yml config
 # docker compose -f local.yml exec postgres psql -U madhu -d nextgen
+      # \c
+      # \d
 # docker compose -f local.yml up --build -d --remove-orphans
 # docker compose -f local.yml down
+
+# alembic init -t async migrations
+
+# docker compose -f local.yml exec -it api alembic revision --autogenerate -m "add_user_table"
+# docker compose -f local.yml exec -it api alembic upgrade head
+# docker compose -f local.yml exec postgres psql -U madhu -d nextgen
+      #\d user
