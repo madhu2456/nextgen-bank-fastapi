@@ -145,3 +145,8 @@ volumes:
 # docker compose -f local.yml exec -it api alembic upgrade head
 # docker compose -f local.yml exec postgres psql -U madhu -d nextgen
       #\d user
+
+
+### For Shortcuts of docker commands
+# wsl
+# sudo apt install make
